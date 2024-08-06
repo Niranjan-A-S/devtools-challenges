@@ -1,0 +1,20 @@
+.square {
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    width: fit-content;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.selected {
+    background-color: green;
+}

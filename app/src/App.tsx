@@ -1,10 +1,10 @@
-import { Timer } from "./challenges/use-timer"
+import UseTimeout from "./challenges/use-timeout/"
 
 function App() {
 
   return (
     <>
-      <Timer />
+      <UseTimeout />
     </>
   )
 }
